@@ -19,7 +19,7 @@ void setup(){
 void draw(){
   background(0);
   
-  table = loadTable("data.csv");
+  table = loadTable("../data.csv");
   
   if(table.getRowCount() > 0){
     TableRow row = table.getRow(0);
